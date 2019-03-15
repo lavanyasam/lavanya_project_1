@@ -10,7 +10,7 @@ import Action from './components/action';
 import Options from './components/options';
 import Option from './components/option';
 import Option1 from './components/option1';
-import Counter from './components/counter' ;
+
 import OptionModal from './components/modal' ;
 
 
@@ -48,6 +48,8 @@ class App extends React.Component {
         return optionToRemove !== option;
       })
 
+      
+    
     }) );
   }
   handlePick() {

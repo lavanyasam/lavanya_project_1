@@ -41,6 +41,7 @@ class Applic extends React.Component{
                    <button onClick={onMakeDecision}>What should I do?</button>
                     <button onClick={onRemoveAll}>Remove All</button>
                     <ol>
+                        
                         {
                             user.options.map((option) => {
                                 return <li key={option}>{option}</li>
